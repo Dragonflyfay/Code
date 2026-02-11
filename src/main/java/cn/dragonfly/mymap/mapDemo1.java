@@ -15,8 +15,12 @@ public class mapDemo1 {
         m.put("小蜻蜓","18");
         m.put("小可心","16");
         m.put("海艳","18");
-        String value = m.put("小可心", "18");
-        System.out.println(value);
+        //String value = m.put("小可心", "18");
+        //System.out.println(value);
+        boolean keycontains = m.containsKey("小可心");
+        boolean valuecontains = m.containsValue("18");
+        //m.clear();
+        m.isEmpty();
         System.out.println(m);
     }
 }
